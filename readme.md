@@ -24,8 +24,6 @@ python GUI_start.py
 
 >另外，对于该引擎安卓版的汉化，还需要改动apk里lib/arm64_v8a/fescript.so文件的toSJISString()函数，不然替换文本后会闪退；至于32位的armeabi_v7a/fescript.so没得救了，主包改了好多个点都不太行，建议直接删掉32位库，反正没多少手机用了。还有就是改下assets文件夹下的字体，不然有些汉字显示不了。  
 
-**已处理过的游戏：アマカノ２(Android)、アマカノ１(Android)**
-
 ## 下面是关于封包和文本结构体的信息总结，本人第一次写这种，有错有不规范的还请见谅
 
 [结构信息](PackageInfo.md)
